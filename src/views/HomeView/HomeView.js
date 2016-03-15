@@ -1,11 +1,15 @@
 /* @flow */
-import React from 'react'
+import React from 'react';
+import NavBar from './../../components/navbar';
+import Header from './../../components/header';
 
 export class HomeView extends React.Component {
   render () {
     return (
       <div>
-        <h1>Mysite</h1>
+        <Header/>
+        <NavBar/>
+        <h1>Footer</h1>
       </div>
     )
   }
