@@ -1,11 +1,14 @@
 import React from 'react'
 
-export default class Header extends React.Component {
+class Header extends React.Component {
   render () {
     return (
-      <header>
-        My Page
-      </header>
+      <div>
+        <input type='checkbox' id='nav-trigger' className='nav-trigger'></input>
+        <label htmlFor='nav-trigger'></label>
+      </div>
     )
   }
 }
+
+export default Header
